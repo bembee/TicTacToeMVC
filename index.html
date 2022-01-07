@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stilus.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="controller/TicTacToeController.js"></script>
+    <script src="model/TicTacToeModel.js"></script>
+    <script src="view/TicTacToeView.js"></script>
+    <script src="main.js"></script>
+    <title>Simon Gergely</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form>
+          <label for="xNev">X játékos neve</label>
+          <input type="text" name="xNev" id="xNev" />
+          <label for="oNev">O játékos neve</label>
+          <input type="text" name="oNev" id="oNev" />
+        </form>
+        <p class="kovetkezoJatekos"></p>
+        <p class="jatekvege"></p>
+        <button id="ujJatek">Új játék</button>
+      </section>
+      <article></article>
+
+      <footer>Simon Gergely</footer>
+    </main>
+  </body>
+</html>
